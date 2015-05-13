@@ -56,7 +56,7 @@ namespace PhotoRename
                     if (dateTime == DateTime.MinValue)
                         continue;
 
-                    string newName = string.Format("{0:yyyyMMdd_HHmmss}.{1}", dateTime, file.Extension);
+                    string newName = string.Format("{0:yyyyMMdd_HHmmss}{1}", dateTime, file.Extension);
 
 
                     if (file.Name == newName)
