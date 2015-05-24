@@ -43,19 +43,20 @@ namespace PhotoRename
                 if (error == string.Empty)
                 {
                     prg_Image.Maximum = System.IO.Directory.GetFiles(txt_Source.Text, "*.*").Length;
-                    foreach (string item in System.IO.Directory.GetFiles(txt_Source.Text, "*.*"))
+                    string newName = string.Empty;
+                    foreach (string fileName in System.IO.Directory.GetFiles(txt_Source.Text, "*.*"))
                     {
                         try
                         {
                             prg_Image.PerformStep();
-                            System.IO.FileInfo file = new System.IO.FileInfo(item);
+                            System.IO.FileInfo file = new System.IO.FileInfo(fileName);
 
                             DateTime dateTime = GetDateTakenFromImage(file.FullName);
 
                             if (dateTime == DateTime.MinValue)
                                 continue;
 
-                            string newName = string.Format("{0:yyyyMMdd_HHmmss}{1}", dateTime, file.Extension);
+                            newfileName = string.Format("{0:yyyyMMdd_HHmmss}{1}", dateTime, file.Extension);
 
 
                             if (file.Name == newName)
@@ -66,9 +67,10 @@ namespace PhotoRename
                             string newFilePath = System.IO.Path.Combine(txt_Source.Text, newName);
                             file.MoveTo(newFilePath);
                         }
-                        catch
+                        catch(Exception exc)
                         {
-
+                            string msg = string.Format("{0:yyyyMMdd HH:mm:ss} - {1}-->{2} : {3}{4}", DateTime.Now, fileName, newName, exc.Message, Environment.NewLine);
+                            File.AppendAllText("LOG.txt", msg);
                         }
 
                     }
@@ -119,5 +121,7 @@ namespace PhotoRename
             prg_Image.Visible = false;
         }
 
+
+        public string newfileName { get; set; }
     }
 }
