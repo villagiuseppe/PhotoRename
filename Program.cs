@@ -17,6 +17,7 @@ namespace PhotoRename
         [STAThread]
         static void Main(string[] args)
         {
+
             Application.Run(new PhotoRename());
         }
     }
