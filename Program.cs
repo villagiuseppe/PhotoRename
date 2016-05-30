@@ -17,13 +17,6 @@ namespace PhotoRename
         [STAThread]
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            \\TEST     
-=======
->>>>>>> parent of 415feff... test
-=======
->>>>>>> parent of 415feff... test
             Application.Run(new PhotoRename());
         }
     }
