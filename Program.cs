@@ -19,5 +19,5 @@ namespace PhotoRename
         {
             Application.Run(new PhotoRename());
         }
-    }
+    }   
 }
