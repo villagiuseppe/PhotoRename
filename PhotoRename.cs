@@ -42,16 +42,17 @@ namespace PhotoRename
                 string error = Check();
                 if (error == string.Empty)
                 {
-                    prg_Image.Maximum = System.IO.Directory.GetFiles(txt_Source.Text, "*.*").Length;
+                    string[] files = Directory.GetFiles(txt_Source.Text, "*.*", chk_SubDir.Checked ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly) ;
+                    prg_Image.Maximum = files.Length;
                     string newName = string.Empty;
-                    foreach (string fileName in System.IO.Directory.GetFiles(txt_Source.Text, "*.*"))
+                    foreach (string fileName in files)
                     {
                         try
                         {
                             prg_Image.PerformStep();
-                            System.IO.FileInfo file = new System.IO.FileInfo(fileName);
+                            FileInfo file = new FileInfo(fileName);
 
-                            DateTime dateTime = GetDateTakenFromImage(file.FullName);
+                            DateTime dateTime = GetDateTakenFromImage(file.FullName, Convert.ToDouble( nmu_Offset.Value));
 
                             if (dateTime == DateTime.MinValue)
                                 continue;
@@ -64,7 +65,7 @@ namespace PhotoRename
 
                             Console.WriteLine(file.Name + "-->" + newName);
 
-                            string newFilePath = System.IO.Path.Combine(txt_Source.Text, newName);
+                            string newFilePath = Path.Combine(txt_Source.Text, newName);
                             file.MoveTo(newFilePath);
                         }
                         catch(Exception exc)
@@ -96,20 +97,18 @@ namespace PhotoRename
             return ret;
         }
         //retrieves the datetime WITHOUT loading the whole image
-        public static DateTime GetDateTakenFromImage(string path)
+        public static DateTime GetDateTakenFromImage(string path, Double offset)
         {
             using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read))
             using (Image myImage = Image.FromStream(fs, false, false))
             {
-
                 DateTime date = DateTime.MinValue;
-                foreach (PropertyItem propItem in myImage.PropertyItems)
+                PropertyItem propertyItem = myImage.GetPropertyItem(0x132);                
+                if (propertyItem != null)
                 {
-                    if (propItem.Id == 36867)
-                    {
-                        string dateTaken = r.Replace(Encoding.UTF8.GetString(propItem.Value), "-", 2);
-                        date = DateTime.Parse(dateTaken); ;
-                    }
+                    string dateTaken = r.Replace(Encoding.UTF8.GetString(propertyItem.Value), "-", 2);
+                    date = DateTime.Parse(dateTaken).AddHours(offset);
+
                 }
 
                 return date;
