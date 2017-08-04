@@ -103,7 +103,8 @@ namespace PhotoRename
             using (Image myImage = Image.FromStream(fs, false, false))
             {
                 DateTime date = DateTime.MinValue;
-                PropertyItem propertyItem = myImage.GetPropertyItem(0x132);                
+                //Date Time Original
+                PropertyItem propertyItem = myImage.GetPropertyItem(0x9003);                
                 if (propertyItem != null)
                 {
                     string dateTaken = r.Replace(Encoding.UTF8.GetString(propertyItem.Value), "-", 2);
