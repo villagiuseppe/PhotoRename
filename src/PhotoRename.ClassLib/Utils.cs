@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Lib
+namespace PhotoRename.ClassLib
 {
     public class Utils
     {
