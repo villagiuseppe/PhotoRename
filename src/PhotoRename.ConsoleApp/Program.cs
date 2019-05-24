@@ -1,11 +1,16 @@
 ﻿using Terminal.Gui;
+using System.Runtime;
+using Mono.Terminal;
+
 namespace PhotoRename.ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-   //      var n = MessageBox.Query (50, 7, "Question", "Do you like console apps?", "Yes", "No");
+          Application.Init();
+          var n = MessageBox.Query(50, 10, "Quit Demo", "Are you sure you want to quit this demo?", "Yes", "No");
+          //Application.Run ();          
         }
     }
 }
