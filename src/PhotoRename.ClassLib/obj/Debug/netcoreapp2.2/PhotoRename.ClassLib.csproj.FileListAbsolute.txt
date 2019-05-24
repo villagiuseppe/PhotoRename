@@ -1,0 +1,9 @@
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.deps.json
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.dll
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.pdb
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.csprojAssemblyReference.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.csproj.CoreCompileInputs.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.AssemblyInfoInputs.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.AssemblyInfo.cs
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.dll
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ClassLib\obj\Debug\netcoreapp2.2\PhotoRename.ClassLib.pdb

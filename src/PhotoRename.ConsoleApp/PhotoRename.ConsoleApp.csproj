@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\PhotoRename.ClassLib\PhotoRename.ClassLib.csproj" />
+    <ProjectReference Include="..\PhotoRename.ClassLib\PhotoRename.ClassLib.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Terminal.Gui" Version="*"/>
+  </ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
 </Project>

@@ -1,0 +1,14 @@
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.deps.json
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.runtimeconfig.json
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.runtimeconfig.dev.json
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.dll
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.pdb
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.csprojAssemblyReference.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.AssemblyInfoInputs.cache
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.AssemblyInfo.cs
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.dll
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.pdb
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.dll
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.pdb
+C:\PROJECT\SOURCE\PhotoRename\src\PhotoRename.ConsoleApp\obj\Debug\netcoreapp2.2\PhotoRename.ConsoleApp.csproj.CopyComplete

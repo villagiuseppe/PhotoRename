@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PROJECT\\SOURCE\\PhotoRename\\test\\PhotoRename.Tests\\PhotoRename.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\PhotoRename.ClassLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\PhotoRename.ClassLib.csproj",
+        "projectName": "PhotoRename.ClassLib",
+        "projectPath": "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\PhotoRename.ClassLib.csproj",
+        "packagesPath": "C:\\Users\\gvilla\\.nuget\\packages\\",
+        "outputPath": "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvilla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\PROJECT\\SOURCE\\PhotoRename\\test\\PhotoRename.Tests\\PhotoRename.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PROJECT\\SOURCE\\PhotoRename\\test\\PhotoRename.Tests\\PhotoRename.Tests.csproj",
+        "projectName": "PhotoRename.Tests",
+        "projectPath": "C:\\PROJECT\\SOURCE\\PhotoRename\\test\\PhotoRename.Tests\\PhotoRename.Tests.csproj",
+        "packagesPath": "C:\\Users\\gvilla\\.nuget\\packages\\",
+        "outputPath": "C:\\PROJECT\\SOURCE\\PhotoRename\\test\\PhotoRename.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvilla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\PhotoRename.ClassLib.csproj": {
+                "projectPath": "C:\\PROJECT\\SOURCE\\PhotoRename\\src\\PhotoRename.ClassLib\\PhotoRename.ClassLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

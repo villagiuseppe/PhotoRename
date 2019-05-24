@@ -1,0 +1,17 @@
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.Tests.deps.json
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.Tests.runtimeconfig.json
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.Tests.runtimeconfig.dev.json
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.Tests.dll
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.Tests.pdb
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.csprojAssemblyReference.cache
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.csproj.CoreCompileInputs.cache
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.AssemblyInfoInputs.cache
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.AssemblyInfo.cs
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.dll
+C:\PROJECT\source\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.pdb
+C:\PROJECT\SOURCE\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.dll
+C:\PROJECT\SOURCE\PhotoRename\test\PhotoRename.Tests\bin\Debug\netcoreapp2.2\PhotoRename.ClassLib.pdb
+C:\PROJECT\SOURCE\PhotoRename\test\PhotoRename.Tests\obj\Debug\netcoreapp2.2\PhotoRename.Tests.csproj.CopyComplete
